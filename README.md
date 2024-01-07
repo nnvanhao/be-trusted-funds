@@ -9,39 +9,39 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <h1>Express-Ts-Auth-Service</h1>
-  
+
   <p>
 A pre-built authentication server that uses JSON Web Tokens (JWT) for authentication. It is built using Express.js, TypeScript and MySQL
   </p>
-  
+
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/express-ts-auth-service/graphs/contributors">
+  <a href="https://github.com/nnvanhao/be-trusted-funds/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/Louis3797/express-ts-auth-service" alt="contributors" />
   </a>
   <a href="">
     <img src="https://img.shields.io/github/last-commit/Louis3797/express-ts-auth-service" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/express-ts-auth-service/network/members">
+  <a href="https://github.com/nnvanhao/be-trusted-funds/network/members">
     <img src="https://img.shields.io/github/forks/Louis3797/express-ts-auth-service" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/express-ts-auth-service/stargazers">
+  <a href="https://github.com/nnvanhao/be-trusted-funds/stargazers">
     <img src="https://img.shields.io/github/stars/Louis3797/express-ts-auth-service" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/express-ts-auth-service/issues/">
+  <a href="https://github.com/nnvanhao/be-trusted-funds/issues/">
     <img src="https://img.shields.io/github/issues/Louis3797/express-ts-auth-service" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/express-ts-auth-service/blob/main/LICENSE">
+  <a href="https://github.com/nnvanhao/be-trusted-funds/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/Louis3797/express-ts-auth-service.svg" alt="license" />
   </a>
 </p>
 
 <h4>
-    <a href="https://github.com/Louis3797/express-ts-auth-service#readme">Documentation</a>
+    <a href="https://github.com/nnvanhao/be-trusted-funds#readme">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/express-ts-auth-service/issues/">Report Bug</a>
+    <a href="https://github.com/nnvanhao/be-trusted-funds/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/express-ts-auth-service/issues/">Request Feature</a>
+    <a href="https://github.com/nnvanhao/be-trusted-funds/issues/">Request Feature</a>
   </h4>
 </div>
 
@@ -298,7 +298,7 @@ Refresh token rotation is a security practice used to mitigate the risk of unaut
 
 In refresh token rotation, the application periodically rotates the refresh token, meaning it invalidates the old refresh token and issues a new one. This practice can limit the amount of time an attacker can use a stolen refresh token to gain access to the user's account or resources. By rotating the refresh token, the application reduces the risk of a long-lived refresh token being used to access the user's account or resources without their permission.
 
-![Refresh Token Rotation Flow](https://github.com/Louis3797/express-ts-auth-service/blob/main/assets/refresh_token_rotation_flow_diagram.png)
+![Refresh Token Rotation Flow](https://github.com/nnvanhao/be-trusted-funds/blob/main/assets/refresh_token_rotation_flow_diagram.png)
 
 <!-- Env Variables -->
 
@@ -366,7 +366,7 @@ This project uses Yarn as package manager
 ### Installation
 
 ```bash
-  git clone https://github.com/Louis3797/express-ts-auth-service.git
+  git clone https://github.com/nnvanhao/be-trusted-funds.git
 ```
 
 Go to the project directory
@@ -467,40 +467,13 @@ Run docker compose
   - [ ] Custom Error classes like ```AccessTokenNotFoundError```
 - [ ] Integration Tests
 
-<!-- Contributing -->
-## Contributing
-
-<a href="https://github.com/Louis3797/express-ts-auth-service/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/express-ts-auth-service" />
-</a>
-
-Contributions are always welcome!
-
-See `CONTRIBUTING.md` for ways to get started.
-
 <!-- Code of Conduct -->
 ### Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/Louis3797/express-ts-auth-service/blob/main/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/nnvanhao/be-trusted-funds/blob/main/CODE_OF_CONDUCT.md)
 
 <!-- License -->
 
 ## License
 
 Distributed under the MIT License. See LICENSE for more information.
-
-<!-- Contact -->
-
-## Contact
-
-Louis-Kaan Ay - louiskaan.ay@gmail.com
-
-Project Link: [https://github.com/Louis3797/express-ts-auth-service](https://github.com/Louis3797/express-ts-auth-service)
-
-<!-- Acknowledgments -->
-
-## Acknowledgements
-
-- [Readme Template](https://github.com/Louis3797/awesome-readme-template)
-- [Node Express Boilerplate](https://github.com/hagopj13/node-express-boilerplate)
-- [Express Ts Boilerplate](https://github.com/Louis3797/express-ts-boilerplate)

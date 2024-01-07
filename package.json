@@ -1,8 +1,8 @@
 {
-  "name": "express-ts-auth-service",
-  "version": "1.0.0",
-  "description": "A ready-to-use authentication service build with express.js, that provides secure and reliable authentication using JSON Web Tokens (JWT) and refresh token rotation",
-  "author": "Louis-Kaan Ay",
+  "name": "trusted-funds",
+  "version": "0.0.1",
+  "description": "",
+  "author": "nnvanhao",
   "license": "MIT",
   "private": false,
   "main": "./dist/index.js",
@@ -78,12 +78,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Louis3797/express-ts-auth-service"
+    "url": "https://github.com/nnvanhao/be-trusted-funds"
   },
   "bugs": {
-    "url": "https://github.com/Louis3797/express-ts-auth-service/issues"
+    "url": "https://github.com/nnvanhao/be-trusted-funds/issues"
   },
-  "homepage": "https://github.com/Louis3797/express-ts-auth-service",
+  "homepage": "https://github.com/nnvanhao/be-trusted-funds",
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
